@@ -6,17 +6,21 @@ export function cn(... inputs: ClassValue[]) {
     return twMerge(clsx(inputs))
 }
 
-const buttonVariants = cva("px-4 rounded-full tracking-tight", {
+const buttonVariants = cva("rounded-full tracking-tight hover:cursor-pointer", {
   variants: {
     variant: {
       default: "bg-gray-200 text-black hover:bg-gray-300",
+      neutral: "bg-black text-white hover:text-gray-200",
       primary: "bg-blue-500 text-white hover:bg-blue-400",
-      outline: "border border-blue-500 text-blue-500 hover:bg-blue-400 hover:text-white",
-      neutral: "border border-black text-black hover:bg-black hover:text-white",
-      info: "bg-green-500 text-white",
+      secondary: "bg-gray-200 text-blue-500 hover:bg-blue-500 hover:text-white border border-blue-500",
+      accent: "bg-purple-500 text-white hover:bg-purple-400",
+      info: "bg-cyan-500 text-white hover:bg-cyan-400",
+      success: "bg-green-500 text-white hover:bg-green-400",
+      warning: "bg-yellow-500 text-white hover:bg-yellow-400",
+      error: "bg-red-500 text-white hover:bg-red-400",
     },
     size: {
-      default: "h-10",
+      default: "px-4 py-2",
     },
   },
   defaultVariants: {
