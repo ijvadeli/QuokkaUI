@@ -3,8 +3,13 @@ import { Typography } from "./ui/Typography";
 export default function TypographyShowcase() {
   return (
     <div className="m-4">
-      <Typography type="h1">Typography</Typography>
-      <Typography type="p" className="py-4">Predefined font-sizes to create a clear visual order for the user.</Typography>
+      <Typography type="h1">
+        Typography
+      </Typography>
+      <Typography type="p" className="py-4">
+        Predefined font-sizes to create a clear visual order for the user. Also
+        made responsive for mobile.
+      </Typography>
       <Typography type="h1">Heading 1</Typography>
       <Typography type="h2">Heading 2</Typography>
       <Typography type="h3">Heading 3</Typography>
