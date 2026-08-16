@@ -1,10 +1,20 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import Buttons from './components/buttons'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import Layout from "./layout";
+import Buttons from "./components/buttons";
+import { Typography } from "./components/ui/Typography";
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Buttons/>
+    <Layout>
+      <div className="bg-amber-400 p-2 flex items-center">
+        <img src="favicon.svg" className="h-25"/>
+        <Typography type="h1">
+          QuokkaUI is still W.I.P<br/>No proper website just showcase.
+        </Typography>
+      </div>
+      <Buttons />
+    </Layout>
   </StrictMode>,
-)
+);
