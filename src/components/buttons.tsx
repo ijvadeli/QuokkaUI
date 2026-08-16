@@ -5,7 +5,7 @@ export default function Buttons() {
   return (
     <div className="m-4">
       <Typography type="h1">Buttons</Typography>
-      <Typography type="p">All button types organised by type and size. Buttons are still fully customizable using tailwind, these are just presets.</Typography>
+      <Typography type="p" className="py-4">Buttons are still fully customizable using tailwind, these are just presets.</Typography>
       {/* Button Colors */}
       <Typography type="h2" className="my-4">Colors (variants)</Typography>
       <div className="border-2 rounded-2xl min-h-50 flex flex-row items-center justify-center gap-1">

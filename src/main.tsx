@@ -4,6 +4,7 @@ import "./index.css";
 import Layout from "./layout";
 import Buttons from "./components/buttons";
 import { Typography } from "./components/ui/Typography";
+import TypographyShowcase from "./components/typography";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -15,6 +16,8 @@ createRoot(document.getElementById("root")!).render(
         </Typography>
       </div>
       <Buttons />
+      <hr className="my-10 border-0 border-b-2"/>
+      <TypographyShowcase/>
     </Layout>
   </StrictMode>,
 );
