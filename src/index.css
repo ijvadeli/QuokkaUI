@@ -6,5 +6,5 @@ body {
 }
 
 @theme {
-    --font-mono: "DM Mono", monospace;
+    --font-monospace: "DM Mono", monospace;
 }
