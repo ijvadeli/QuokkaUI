@@ -3,11 +3,11 @@ import { Button } from "./ui/Button";
 
 export default function Buttons() {
   return (
-    <div className="m-4">
+    <div className="m-8 mt-30 sm:mt-20">
       <Typography type="h1">Buttons</Typography>
-      <Typography type="p" className="py-4">Buttons are still fully customizable using tailwind, these are just presets.</Typography>
+      <Typography type="p" className="py-4">Buttons are still fully customizable using tailwind.</Typography>
       {/* Button Colors */}
-      <Typography type="h2" className="my-4">Colors (variants)</Typography>
+      <Typography type="h2" className="my-4">Variant</Typography>
       <div className="border-2 rounded-2xl min-h-50 flex flex-row items-center justify-center gap-1">
         <div className="text-center">
           <Button variant="default">Default</Button>
@@ -22,7 +22,7 @@ export default function Buttons() {
         </div>
       </div>
       {/* Button Sizes */}
-      <Typography type="h2" className="my-4">Sizes (size)</Typography>
+      <Typography type="h2" className="my-4">Size</Typography>
       <div className="border-2 rounded-2xl min-h-50 flex flex-row items-center justify-center gap-1">
         <div className="text-center">
           <Button size='xs'>Extra small</Button>
