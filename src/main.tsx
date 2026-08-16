@@ -9,8 +9,8 @@ import TypographyShowcase from "./components/typography";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Layout>
-      <div className="bg-amber-400 p-2 flex items-center">
-        <img src="favicon.svg" className="h-10 pr-4"/>
+      <div className="bg-amber-400 p-2 flex items-center justify-center fixed top-0 w-full z-50">
+        <img src="favicon.svg" className="h-8 w-8 mr-2" alt="Quokka Logo"/>
         <Typography type="p" className="font-monospace font-bold">
           QuokkaUI is still W.I.P - No proper website, just showcase.
         </Typography>

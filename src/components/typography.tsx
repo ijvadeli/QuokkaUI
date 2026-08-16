@@ -2,7 +2,7 @@ import { Typography } from "./ui/Typography";
 
 export default function TypographyShowcase() {
   return (
-    <div className="m-4">
+    <div className="m-8">
       <Typography type="h1">
         Typography
       </Typography>

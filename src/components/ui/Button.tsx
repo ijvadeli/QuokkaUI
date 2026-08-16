@@ -14,7 +14,7 @@ const buttonVariants = cva("rounded-full tracking-tight hover:cursor-pointer fon
       primary: "bg-blue-400",
       secondary: "bg-gray-200 text-blue-700",
       accent: "bg-purple-400",
-      info: "bg-cyan-500",
+      info: "bg-sky-400",
       success: "bg-green-400",
       warning: "bg-yellow-500",
       error: "bg-red-400",

@@ -3,7 +3,7 @@ import { Button } from "./ui/Button";
 
 export default function Buttons() {
   return (
-    <div className="m-4">
+    <div className="m-8 mt-30 sm:mt-20">
       <Typography type="h1">Buttons</Typography>
       <Typography type="p" className="py-4">Buttons are still fully customizable using tailwind.</Typography>
       {/* Button Colors */}
